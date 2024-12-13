@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+
+<body bgcolor="white">
+    <h2>Malla Reddy College of Engineering for Women</h2>
+    <h3>Student Registration Form</h3>
+
+    <form>
+        <!-- Student Image -->
+        <label for="studentimage">Student Image:</label>
+        <input type="file" id="studentimage" accept="image/*" required>
+        <span>(less than 5 MB)</span><br><br>
+
+        <!-- Table for Student Details -->
+        <table border="1">
+            <tr>
+                <td>Student Name:</td>
+                <td><input type="text" required></td>
+            </tr>
+            <tr>
+                <td>Father's Name:</td>
+                <td><input type="text" required></td>
+            </tr>
+            <tr>
+                <td>Mother's Name:</td>
+                <td><input type="text" required></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    Male <input type="radio" name="gender" value="male" required>
+                    Female <input type="radio" name="gender" value="female" required>
+                    Others <input type="radio" name="gender" value="others" required>
+                </td>
+            </tr>
+            <tr>
+                <td>Date of Birth:</td>
+                <td>
+                    <input type="date" name="dob" required>
+                </td>
+            </tr>
+        </table>
+        <br>
+
+        <!-- Submit Button -->
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
