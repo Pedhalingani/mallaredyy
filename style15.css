@@ -1,0 +1,15 @@
+.box{
+    height: 100px;
+    width: 100%;
+    font-size: 9vh;
+    background-color: red;
+    margin: 10px;
+    border-radius: 15px;
+    text-align: center;
+}
+.container{
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows:minmax(100px, auto) 100px 100px;
+}

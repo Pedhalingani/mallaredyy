@@ -1,0 +1,21 @@
+h1{
+    color:red;
+    background-color: orange;
+    padding: 10px;
+    text-shadow: 0 0 15px;
+    border: 2px solid green;
+}
+p{
+    background-color: lightgreen;
+    padding: 10px;
+}
+.mall{
+    background-image: url("img.jpg");
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: ;
+}
+#teddy{
+    font-size: 20px;
+    text-transform: uppercase;
+    word-spacing: 50px;
+}
